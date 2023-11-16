@@ -1,0 +1,40 @@
+GET http://localhost:3333/user
+Authorization: bearer MQ.KZdCO5SuHsVb0IaniuoIZ-xNZEjBSP0UfMHHEdCD2Sxc2krshwLzG2SoO6D_
+###
+POST http://localhost:3333/user
+Content-Type: application/json
+
+{
+    "name":"ooia",
+    "email":"yhyia@hbdkjfhvbgdfk",
+    "password": "secret"
+}
+###
+GET http://localhost:3333/user/1
+
+
+###
+PUT http://localhost:3000/user/3
+
+Content-Type: application/json
+
+{
+    "name":"hadna",
+}
+###
+POST http://localhost:3333/session
+Content-Type: application/json
+
+{
+    "name":"ooia",
+    "email":"yhyia@hbdkjfhvbgdfk",
+    "password": "secret"
+}
+###
+POST http://localhost:3333/post
+Content-Type: application/json
+
+{
+    "title":"yhyia@hbdkjfhvbgdfk",
+    "description": "secret"
+}
